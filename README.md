@@ -5,5 +5,7 @@ The main purpose of this application is the searching car by filling the propert
 
 We have 2 type of login.First one uses the Loading page and the other one uses the real Login page.
 
+ The Loading Page
+
 
  
