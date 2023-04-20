@@ -10,6 +10,8 @@ This loading screen is the screen that will appear when you first open the appli
 
 ![loadingpagem](https://user-images.githubusercontent.com/131232831/233302224-441d87dc-9d20-40c9-8675-b178cf418d42.png)
 
+After a few second the bar will be %100 and then it will open our Login Page.
+
 
 
 
