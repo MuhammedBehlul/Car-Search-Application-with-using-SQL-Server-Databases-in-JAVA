@@ -8,6 +8,8 @@ We have 2 type of login.First one uses the Loading page and the other one uses t
 
 This loading screen is the screen that will appear when you first open the application. The purpose of this loading screen is to show the installation of the application.Our application will be opened when the loading bar is full.
 
+![loadingpagem](https://user-images.githubusercontent.com/131232831/233302224-441d87dc-9d20-40c9-8675-b178cf418d42.png)
+
 
 
 
