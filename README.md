@@ -18,7 +18,7 @@ The login page where everything started. It will ask user to username and also p
 
 - Enter your username if you have.
 - Enter your password if you have.
-- If you don't have an account you have to register.
+- If you don't have an account you should register.
 
 ![image](https://user-images.githubusercontent.com/131232831/233304148-b3b1977d-4f32-4323-937d-74036f6b7fc6.png)
 
@@ -49,8 +49,11 @@ The main page is the search application page which you will search cars.This app
 ###### 5- Type of Fuel
 ###### 6- Type of Gear
 
+The Search Application             |  With the Results
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/131232831/233309446-649887fd-4040-4988-933d-4b4b1f7a4d36.png)  |  ![image](https://user-images.githubusercontent.com/131232831/233314093-f267d168-3ace-47a1-b735-08565a9d9d76.png)
 
-![image](https://user-images.githubusercontent.com/131232831/233309446-649887fd-4040-4988-933d-4b4b1f7a4d36.png)
+
 
 You can review the all cars with no parameter also you can search a car with one or two or more parameter.
 
