@@ -18,7 +18,7 @@ The login page where everything started. It will ask user to username and also p
 
 - Enter your username if you have.
 - Enter your password if you have.
-- If you don't have an account you should register.
+- If you don't have an account you have to register.
 
 ![image](https://user-images.githubusercontent.com/131232831/233304148-b3b1977d-4f32-4323-937d-74036f6b7fc6.png)
 
