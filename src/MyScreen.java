@@ -54,7 +54,7 @@ public class MyScreen extends javax.swing.JFrame {
 
         lblMarkaAdi.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         lblMarkaAdi.setForeground(new java.awt.Color(255, 255, 255));
-        lblMarkaAdi.setText("ARABA ARAMA MOTORUM");
+        lblMarkaAdi.setText("CAR SEARCH APPLICATION");
         pnlBackgroundColour.add(lblMarkaAdi, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 350, 330, 30));
 
         lblLoadingValue.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N

@@ -296,8 +296,6 @@ public class SearchApplication extends javax.swing.JFrame implements Serializabl
                     System.err.println(e);
        
 
-//        } catch (Exception ex) {
-//            Logger.getLogger(SearchApplication.class.getName()).log(Level.SEVERE, null, ex);
         }
     }//GEN-LAST:event_btnSearchActionPerformed
     
@@ -361,8 +359,8 @@ public class SearchApplication extends javax.swing.JFrame implements Serializabl
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
 //        String name= JOptionPane.showInputDialog("What is your name");
-//    	String lastName= JOptionPane.showInputDialog("What is your Last Name");   	
-//    	JOptionPane.showMessageDialog(null, "Welcome to the search application for the cars " + name + lastName);
+//        String lastName= JOptionPane.showInputDialog("What is your Last Name");   	
+//        JOptionPane.showMessageDialog(null, "Welcome to the search application for the cars " + name + lastName);
         
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {

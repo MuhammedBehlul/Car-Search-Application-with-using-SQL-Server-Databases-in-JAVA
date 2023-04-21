@@ -228,6 +228,41 @@ public class LoginPagem extends javax.swing.JFrame {
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
+        MyScreen myScreen = new MyScreen(); 
+           myScreen.setVisible(true);
+        
+         try { 
+            for(int i =0 ; i<= 100 ; i++){
+                Thread.sleep(40);
+                myScreen.lblLoadingValue.setText(i +"%");
+                
+                if(i== 10){
+                    myScreen.lblInformation.setText("Turning Modules...");                   
+                }
+                if(i== 30){
+                    myScreen.lblInformation.setText("Loading Modules...");                   
+                }
+                if(i== 50){
+                    myScreen.lblInformation.setText("Connection to Database...");                   
+                }
+                if(i== 70){
+                    myScreen.lblInformation.setText("Connection Successful...");                   
+                }
+                if(i== 90){
+                    myScreen.lblInformation.setText("Launching...");                   
+                }
+                myScreen.LoadingBar.setValue(i);
+            } 
+            myScreen.setVisible(false);
+            
+        } catch (Exception e) {
+            
+            JOptionPane.showMessageDialog(null, e);
+        }
+        
+        
+        
+        
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
