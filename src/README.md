@@ -20,7 +20,7 @@ The login page where everything started. It will ask user to username and also p
 - Enter your password if you have.
 - If you don't have an account you should register.
 
-![image](https://user-images.githubusercontent.com/131232831/233304148-b3b1977d-4f32-4323-937d-74036f6b7fc6.png)
+![image](https://github.com/MuhammedBehlul/Car-Search-Application-with-using-SQL-Server-Databases-in-JAVA/assets/131232831/a9f277da-b88c-4415-84e6-23c572046b2d)
 
 - After all that if you have an account you will login to the application and you can start the searching a car.
 
@@ -33,7 +33,7 @@ The Register Page will create a new user and store the user in database. As you 
 ##### 1- Username 
 ##### 2- Password
 ##### 3- Email
-![image](https://user-images.githubusercontent.com/131232831/233307933-5c4e9bb3-1064-46db-8978-16e199bb2fc6.png)
+![image](https://github.com/MuhammedBehlul/Car-Search-Application-with-using-SQL-Server-Databases-in-JAVA/assets/131232831/44584a77-bf67-4c9d-a32d-af9cb4718df0)
 
 After the registration completed we also have button here. The Go back to login page button which leads you to the login page.
 
@@ -51,7 +51,7 @@ The main page is the search application page which you will search cars.This app
 
 The Search Application             |  With the Results
 :-------------------------:|:-------------------------:
-![image](https://user-images.githubusercontent.com/131232831/233309446-649887fd-4040-4988-933d-4b4b1f7a4d36.png)  |  ![image](https://user-images.githubusercontent.com/131232831/233314093-f267d168-3ace-47a1-b735-08565a9d9d76.png)
+![image](https://github.com/MuhammedBehlul/Car-Search-Application-with-using-SQL-Server-Databases-in-JAVA/assets/131232831/c2924d18-1ebd-4eec-aa63-9f983254595e)  |  ![image](https://github.com/MuhammedBehlul/Car-Search-Application-with-using-SQL-Server-Databases-in-JAVA/assets/131232831/c85ecf4e-5de8-46c7-a0f9-eda65496af00)
 
 
 
@@ -64,5 +64,5 @@ There is also Add button here which will lead you to the Add Page. You can enter
 
 The Add Page also ask for 5 spesific thing.These elements from the Search Application parameters. You can fill the elements and your car will be on the list for selling.
 
-![image](https://user-images.githubusercontent.com/131232831/233312191-c7a91825-34c0-4f93-b34e-e83f2f9c01e2.png)
+![image](https://github.com/MuhammedBehlul/Car-Search-Application-with-using-SQL-Server-Databases-in-JAVA/assets/131232831/192a1b6b-b39b-4354-8251-2b3ea340e04c)
 

@@ -170,7 +170,7 @@ public class LoginPagem extends javax.swing.JFrame {
         Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(windowsClosingEvent);
     
     }
-    
+    //Login Button
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
         try {
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
