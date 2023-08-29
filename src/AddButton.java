@@ -56,23 +56,23 @@ public class AddButton extends javax.swing.JFrame {
 
         jpanelAdd_Entries.setBackground(new java.awt.Color(0, 0, 0,80) );
 
-        lblCarBrand.setFont(new java.awt.Font("Harrington", 1, 24)); // NOI18N
+        lblCarBrand.setFont(new java.awt.Font("Leelawadee", 1, 24)); // NOI18N
         lblCarBrand.setForeground(new java.awt.Color(255, 255, 255));
         lblCarBrand.setText("Car Brand");
 
-        lblFuelType.setFont(new java.awt.Font("Harrington", 1, 24)); // NOI18N
+        lblFuelType.setFont(new java.awt.Font("Leelawadee", 1, 24)); // NOI18N
         lblFuelType.setForeground(new java.awt.Color(255, 255, 255));
         lblFuelType.setText("Fuel Type");
 
-        lblGearType.setFont(new java.awt.Font("Harrington", 1, 24)); // NOI18N
+        lblGearType.setFont(new java.awt.Font("Leelawadee", 1, 24)); // NOI18N
         lblGearType.setForeground(new java.awt.Color(255, 255, 255));
         lblGearType.setText("Gear Type");
 
-        lblPrice.setFont(new java.awt.Font("Harrington", 1, 24)); // NOI18N
+        lblPrice.setFont(new java.awt.Font("Leelawadee", 1, 24)); // NOI18N
         lblPrice.setForeground(new java.awt.Color(255, 255, 255));
         lblPrice.setText("Price");
 
-        lblCarName.setFont(new java.awt.Font("Harrington", 1, 24)); // NOI18N
+        lblCarName.setFont(new java.awt.Font("Leelawadee", 1, 24)); // NOI18N
         lblCarName.setForeground(new java.awt.Color(255, 255, 255));
         lblCarName.setText("Car Name");
 

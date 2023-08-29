@@ -54,15 +54,15 @@ public class RegisterPagem extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0,80));
 
-        lblTitle.setFont(new java.awt.Font("Harrington", 1, 36)); // NOI18N
+        lblTitle.setFont(new java.awt.Font("Leelawadee", 1, 36)); // NOI18N
         lblTitle.setForeground(new java.awt.Color(255, 255, 255));
         lblTitle.setText("REGISTER");
 
-        lblUserName.setFont(new java.awt.Font("Harrington", 1, 18)); // NOI18N
+        lblUserName.setFont(new java.awt.Font("Leelawadee", 1, 18)); // NOI18N
         lblUserName.setForeground(new java.awt.Color(255, 255, 255));
         lblUserName.setText("Username:");
 
-        lblPassword.setFont(new java.awt.Font("Harrington", 1, 18)); // NOI18N
+        lblPassword.setFont(new java.awt.Font("Leelawadee", 1, 18)); // NOI18N
         lblPassword.setForeground(new java.awt.Color(255, 255, 255));
         lblPassword.setText("Password:");
 
@@ -75,7 +75,7 @@ public class RegisterPagem extends javax.swing.JFrame {
         });
 
         btnRegister.setBackground(new java.awt.Color(102, 255, 102));
-        btnRegister.setFont(new java.awt.Font("Harrington", 1, 24)); // NOI18N
+        btnRegister.setFont(new java.awt.Font("Leelawadee", 1, 24)); // NOI18N
         btnRegister.setText("Register");
         btnRegister.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnRegister.addActionListener(new java.awt.event.ActionListener() {
@@ -85,7 +85,7 @@ public class RegisterPagem extends javax.swing.JFrame {
         });
 
         btnGoingBack.setBackground(new java.awt.Color(102, 255, 102));
-        btnGoingBack.setFont(new java.awt.Font("Harrington", 1, 24)); // NOI18N
+        btnGoingBack.setFont(new java.awt.Font("Leelawadee", 1, 24)); // NOI18N
         btnGoingBack.setText("Go back to login page");
         btnGoingBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -97,7 +97,7 @@ public class RegisterPagem extends javax.swing.JFrame {
         lblAskAccount.setForeground(new java.awt.Color(255, 255, 255));
         lblAskAccount.setText("You already have an account?");
 
-        lblEmail.setFont(new java.awt.Font("Harrington", 1, 18)); // NOI18N
+        lblEmail.setFont(new java.awt.Font("Leelawadee", 1, 18)); // NOI18N
         lblEmail.setForeground(new java.awt.Color(255, 255, 255));
         lblEmail.setText("Email");
 
@@ -151,7 +151,7 @@ public class RegisterPagem extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(lblPassword)
-                        .addGap(0, 13, Short.MAX_VALUE))
+                        .addGap(0, 12, Short.MAX_VALUE))
                     .addComponent(passwordField))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

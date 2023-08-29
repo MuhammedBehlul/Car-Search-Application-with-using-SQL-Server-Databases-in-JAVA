@@ -51,15 +51,15 @@ public class LoginPagem extends javax.swing.JFrame {
 
         jpanel_LOGIN.setBackground(new java.awt.Color(0, 0, 0,80));
 
-        lblTitle.setFont(new java.awt.Font("Harrington", 1, 36)); // NOI18N
+        lblTitle.setFont(new java.awt.Font("Leelawadee", 1, 36)); // NOI18N
         lblTitle.setForeground(new java.awt.Color(255, 255, 255));
         lblTitle.setText("LOGIN");
 
-        lblUserName.setFont(new java.awt.Font("Harrington", 1, 18)); // NOI18N
+        lblUserName.setFont(new java.awt.Font("Leelawadee", 1, 18)); // NOI18N
         lblUserName.setForeground(new java.awt.Color(255, 255, 255));
         lblUserName.setText("Username:");
 
-        lblPassword.setFont(new java.awt.Font("Harrington", 1, 18)); // NOI18N
+        lblPassword.setFont(new java.awt.Font("Leelawadee", 1, 18)); // NOI18N
         lblPassword.setForeground(new java.awt.Color(255, 255, 255));
         lblPassword.setText("Password:");
 
@@ -74,7 +74,7 @@ public class LoginPagem extends javax.swing.JFrame {
         });
 
         btnLogin.setBackground(new java.awt.Color(102, 255, 102));
-        btnLogin.setFont(new java.awt.Font("Harrington", 1, 24)); // NOI18N
+        btnLogin.setFont(new java.awt.Font("Leelawadee", 1, 24)); // NOI18N
         btnLogin.setText("Login");
         btnLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
@@ -89,7 +89,7 @@ public class LoginPagem extends javax.swing.JFrame {
         });
 
         btnRegister.setBackground(new java.awt.Color(102, 255, 102));
-        btnRegister.setFont(new java.awt.Font("Harrington", 1, 24)); // NOI18N
+        btnRegister.setFont(new java.awt.Font("Leelawadee", 1, 24)); // NOI18N
         btnRegister.setText("Register");
         btnRegister.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

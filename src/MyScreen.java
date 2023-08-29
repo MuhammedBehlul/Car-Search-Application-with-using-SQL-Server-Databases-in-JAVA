@@ -1,11 +1,11 @@
 
+import java.awt.Color;
 import javax.swing.JOptionPane;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-
 /**
  *
  * @author mubsi
@@ -17,6 +17,8 @@ public class MyScreen extends javax.swing.JFrame {
      */
     public MyScreen() {
         initComponents();
+        LoadingBar.setStringPainted(true);
+        LoadingBar.setForeground(new Color(211, 30, 30));
     }
 
     /**
@@ -45,6 +47,9 @@ public class MyScreen extends javax.swing.JFrame {
         lblArabaImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/splashScreen/Assets/Arabam.jpg"))); // NOI18N
         lblArabaImage.setText("jLabel1");
         pnlBackgroundColour.add(lblArabaImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 350));
+
+        LoadingBar.setBackground(new java.awt.Color(255, 255, 255));
+        LoadingBar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         pnlBackgroundColour.add(LoadingBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 380, 900, 20));
 
         lblInformation.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -109,38 +114,39 @@ public class MyScreen extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-           MyScreen myScreen = new MyScreen(); 
-           myScreen.setVisible(true);
+        MyScreen myScreen = new MyScreen();
         
-         try { 
-            for(int i =0 ; i<= 100 ; i++){
+        myScreen.setVisible(true);
+
+        try {
+            for (int i = 0; i <= 100; i++) {
                 Thread.sleep(40);
-                myScreen.lblLoadingValue.setText(i +"%");
-                
-                if(i== 10){
-                    myScreen.lblInformation.setText("Turning Modules...");                   
+                myScreen.lblLoadingValue.setText(i + "%");
+
+                if (i == 10) {
+                    myScreen.lblInformation.setText("Turning Modules...");
                 }
-                if(i== 30){
-                    myScreen.lblInformation.setText("Loading Modules...");                   
+                if (i == 30) {
+                    myScreen.lblInformation.setText("Loading Modules...");
                 }
-                if(i== 50){
-                    myScreen.lblInformation.setText("Connection to Database...");                   
+                if (i == 50) {
+                    myScreen.lblInformation.setText("Connection to Database...");
                 }
-                if(i== 70){
-                    myScreen.lblInformation.setText("Connection Successful...");                   
+                if (i == 70) {
+                    myScreen.lblInformation.setText("Connection Successful...");
                 }
-                if(i== 90){
-                    myScreen.lblInformation.setText("Launching...");                   
+                if (i == 90) {
+                    myScreen.lblInformation.setText("Launching...");
                 }
                 myScreen.LoadingBar.setValue(i);
-            } 
+            }
             myScreen.setVisible(false);
-            
+
         } catch (Exception e) {
-            
+
             JOptionPane.showMessageDialog(null, e);
         }
-    
+
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

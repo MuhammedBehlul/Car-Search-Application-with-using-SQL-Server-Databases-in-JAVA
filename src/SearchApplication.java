@@ -1,29 +1,13 @@
 
-import com.mysql.cj.jdbc.result.ResultSetMetaData;
 import java.awt.Toolkit;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.awt.event.WindowEvent;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.io.Serializable;
-import java.net.Socket;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Vector;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.sql.ResultSet;
 import javax.swing.JOptionPane;
-import static javax.swing.UIManager.put;
 import javax.swing.table.DefaultTableModel;
 
 /*
@@ -228,7 +212,7 @@ public class SearchApplication extends javax.swing.JFrame implements Serializabl
         });
         getContentPane().add(txtModel, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 40, 120, 30));
 
-        jPanel.setBackground(new java.awt.Color(255, 204, 204));
+        jPanel.setBackground(new java.awt.Color(0, 215, 206));
         jPanel.setPreferredSize(new java.awt.Dimension(900, 450));
         getContentPane().add(jPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
@@ -261,7 +245,7 @@ public class SearchApplication extends javax.swing.JFrame implements Serializabl
             
             
             //String calistir = carBrand+carName+minPrice+maxPrice;     
-            String query = "Execute [dbo].[sp_SearchCarApplication] '"+carBrand+"','"+carName+"','"+minPrice_1+"','"+maxPrice_2+"','"+typeOfFuel+"','"+typeOfGear+"'";
+            String query = "Execute [dbo].[sp_SearchCarApplication] '"+carBrand+"','"+carName+"','"+typeOfFuel+"','"+typeOfGear+"','"+minPrice_1+"','"+maxPrice_2+"'";
             
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
             String connectionUrl = "jdbc:sqlserver://MBS;databaseName=searchapplication;integratedSecurity=true;trustServerCertificate=true;"; 
@@ -270,8 +254,7 @@ public class SearchApplication extends javax.swing.JFrame implements Serializabl
             ResultSet resultSet = statement.executeQuery(query);
             String carMarka,carModel ,carYakitTuru ,carVitesTuru,carFiyat ;
             
-            
-            
+                        
             while(resultSet.next()){
                 carMarka = resultSet.getString(1);
                 carModel  = resultSet.getString(2);
